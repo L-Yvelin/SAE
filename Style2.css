@@ -1,0 +1,101 @@
+
+header{
+    font-size: 20px;
+    text-underline-position: below;
+    width: 170px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    
+}
+
+header:hover{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 21px;
+}
+
+ul,h3,h2,p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 150px;
+    margin-right: 150px;
+    display: block;
+    
+}
+h1{
+    text-shadow:   -1px -1px 0 #fff,  
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+     1px 1px 0 #fff,
+     1px 1px 10px #141414;color:#333;
+    position: absolute;
+    left: 45%;
+    top: 2%;
+    font-size: 34px;
+}
+h4{
+    color: rgb(94, 86, 86);
+    opacity: 90%;
+    margin-left: 0px;
+    font-size: 20px;
+    text-decoration-line: underline;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+}
+
+ul,li{
+    text-align: justify;
+}
+p{
+    text-align: center;
+    text-align: justify;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.EasyMileContainer  h2{
+    color: rgb(81, 82, 165);
+    background-color: rgb(156, 156, 156);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.NaioContainer h2{
+    color: rgb(85, 202, 94);
+    background-color: rgb(121, 70, 36);
+    border-radius: 10px;
+    text-align: center;
+}
+.ZeWattContainer h2{
+    color:rgb(63, 98, 196);
+    background-color: rgb(248, 159, 43);
+    border-radius: 10px;
+    text-align: center;
+}
+
+#ChaineDeValeurEM{
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+#ChaineDeValeurN{
+    width: 40%;
+    height: 30%;
+    padding-left: 30%;
+    padding-left: 30%;
+}
+
+#ChaineDeValeurZW{
+    width: 40%;
+    height: 30%;
+    padding-left: 30%;
+    padding-left: 30%;
+}
+
+.Container2{
+    margin-top: 70px;
+    margin-left:50px;
+    margin-right:50px ;
+    border-width:1px;
+    border-style:dashed;
+    border-color:black;
+}
+

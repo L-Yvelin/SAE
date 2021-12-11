@@ -1,0 +1,39 @@
+header{
+    font-size: 20px;
+    text-underline-position: below;
+    color: #10B91C;
+    width: 170px;
+    
+}
+
+header:hover{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	text-shadow:   -1px -1px 0 #fff,  
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+     1px 1px 0 #fff,
+     1px 1px 10px #155502;color:rgb(31, 126, 13);
+     font-size: 21px;
+}
+
+h3,h2,p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 150px;
+    margin-right: 150px;
+    display: block;
+}
+
+p{
+    text-align: center;
+    text-align: justify;
+}
+h2{
+    color: rgb(255, 102, 0);
+}
+
+
+#ChaineDeValeur{
+    padding-left: 30%;
+    padding-right: 30%;
+
+}

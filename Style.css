@@ -1,0 +1,189 @@
+body{
+    margin: 0;
+	background-image: url('back5.jpeg');
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+header {
+	height:20%;
+	width:100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+h2{
+	font-size: 30px;
+	margin-top: 50px;
+}
+h3{
+	font-size: 30px;
+}
+
+h1{
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	text-shadow:   -1px -1px 0 #fff,  
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+     1px 1px 0 #fff,
+     1px 1px 10px #141414;color:#333;
+	text-align: center; 
+	top: 2%;
+	opacity: 80%;
+	font-size: 69px;
+}
+
+#imageRegion{
+	position:absolute;
+	left:10px;
+	height:85px;
+	width:95px;
+	opacity: 85%;
+	border-radius: 10%;
+	top:10px;
+	opacity: 90%;
+}
+
+
+#Banniere{
+	height: 110px;
+	width: 100%;
+	top: 0%;
+}
+
+.Accueil {
+	position: absolute;
+	width:100%;
+	height:100vh;
+	top: 16.79%;
+	min-width: 500px;
+}
+
+.texte{
+	opacity: 80%;
+	text-align: center;
+	font-family: cursive;
+	text-shadow:   -1px -1px 0 #fff,  
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+    1px 1px 0 #fff,
+    1px 1px 10px #141414;color:#333;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.texteObjectif{
+	top: 15%;
+	text-align: center;
+	left: 26.4%;
+	font-size: 25px;
+	margin-left: 230px;
+	margin-right: 230px;
+	background-color: rgb(163, 158, 153);
+	opacity: 80%;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	border-radius: 10px;
+	padding: 15px;
+	
+}
+
+
+#Naio{
+	text-align: center;
+	margin-left: 60px;
+	opacity: 75%;
+	text-shadow:   -1px -1px 0 #fff,  
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+     1px 1px 0 #fff,
+     1px 1px 10px #141414;color:#333;
+	 height:180px; 
+	 width:315px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#ZeWatt{
+	text-align: center;
+	opacity: 75%;
+	text-shadow:   -1px -1px 0 #fff,  
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+     1px 1px 0 #fff,
+     1px 1px 10px #141414;color:#333;
+	padding-left: 9%;
+	padding-right: 10%;
+	height:180px; 
+	width:290px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#EasyMile{
+	text-align: center;
+	opacity: 75%;
+	text-shadow:   -1px -1px 0 #fff,  
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+     1px 1px 0 #fff,
+     1px 1px 10px #141414;color:#333;
+	 height:180px; 
+	 width:390px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.container{
+	display: flex;
+	justify-content: center;
+	height: 250px;
+}
+
+footer{
+	position: absolute;
+	bottom:13%;
+	left: 50%;
+	transform: translate(-50%,0);
+	text-shadow:   
+    1px 1px 10px #8b8b8b;color:rgb(202, 202, 202);
+	font-size: 40px;
+	opacity: 90%;
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+footer:hover{
+		font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+		font-size: 44px;
+		text-shadow:   
+     	1px 1px 10px #dadada;color:rgb(221, 219, 219);
+	 	transition: 0.5s ease-in;
+}
+
+#Naio:hover{
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	text-shadow:   -1px -1px 0 rgb(255, 255, 255),  
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+     1px 1px 0 #fff,
+     1px 1px 10px #155502;color:rgb(95, 73, 2);
+}
+
+#EasyMile:hover{
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	text-shadow:   -1px -1px 0 #fff,  
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+     1px 1px 0 #fff,
+     1px 1px 10px #155502;color:rgb(48, 75, 194);
+}
+
+#ZeWatt:hover{
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	text-shadow:   -1px -1px 0 #fff,  
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+     1px 1px 0 #fff,
+     1px 1px 10px #155502;color:rgb(255, 125, 4);
+}
+
+#imageRegion:hover{
+	height:87px;
+	width:99px;
+
+}
