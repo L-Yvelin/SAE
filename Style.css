@@ -135,7 +135,7 @@ h1{
 	height: 250px;
 }
 
-footer{
+.footer{
 	position: absolute;
 	bottom:13%;
 	left: 50%;
@@ -147,7 +147,7 @@ footer{
 	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-footer:hover{
+.footer:hover{
 		font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 		font-size: 44px;
 		text-shadow:   
@@ -186,4 +186,14 @@ footer:hover{
 	height:87px;
 	width:99px;
 
+}
+
+footer a{
+	padding-left: 20px;
+	color: white;
+	background-color: black;
+	width: 100%;
+	font-size: 20px;
+	position: absolute;
+	bottom: -200px;
 }
